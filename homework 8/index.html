@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contact-form-box">
+      <form action="" class="contact-form">
+        <header class="header-content">
+          <img src="./Happy Bunch Avatar.png" alt="avatar" class="img-form" />
+          <h1 class="tittle">Payment info</h1>
+        </header>
+        <div class="warpper">
+          <p class="info">Full Name</p>
+          <input type="text" placeholder="Your Name" class="input-name" />
+        </div>
+        <div class="warpper">
+          <p class="info">Credit Card Number</p>
+          <input
+            type="number"
+            placeholder="1234 1234 1234 1234"
+            class="input-number"
+          />
+        </div>
+        <div class="warpper">
+          <p class="info">Exp Date</p>
+          <input type="month" placehplder="MM/YY" class="input-date" />
+        </div>
+        <div class="warpper">
+          <p class="info">CVV</p>
+          <input
+            type="password"
+            placeholder="***"
+            maxlength="3"
+            class="input-code"
+          />
+        </div>
+        <div class="warpper">
+          <p class="info">Zip Code</p>
+          <input type="number" placeholder="90210" class="input-number" />
+        </div>
+        <div class="warpper">
+          <button class="input-button">Confirm Payment</button>
+          <p class="info-footer">You verify that this info is correct</p>
+        </div>
+      </form>
+    </div>
+    <style>
+      .contact-form-box {
+        display: flex;
+        justify-content: center;
+      }
+      .header-content {
+        text-align: center;
+      }
+      .input-number,
+      .input-date,
+      .input-code {
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 14px;
+        background-color: #e2e6ee;
+        color: #9ea8bd;
+        border-radius: 10px;
+        width: 300px;
+      }
+      .input-name {
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+        width: 300px;
+      }
+      .input-button {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+        width: 320px;
+        margin-top: 30px;
+        background-color: #288fb4;
+        color: #fff;
+      }
+      .info {
+        font-size: 18px;
+      }
+      .info-footer {
+        font-size: 12px;
+      }
+      .tittle {
+        font-size: 24px;
+      }
+      .info-footer {
+        text-align: center;
+      }
+    </style>
+  </body>
+</html>
